@@ -1,5 +1,12 @@
 <template>
-  <p class="text-center">Love to travel? Bored of excel? Wanna mockup your next trip in no time?</p>
+  <div class="mt-8 text-center">
+    <div>
+      <p>Love to travel? ✈️</p>
+      <p>Bored of excel? 👁‍🗨</p>
+      <p>Wanna mockup your next trip in no time? 🔥🔥</p>
+    </div>
+    <div class="mt-4 text-primary-orange">Then you are at the right place!! Try us!</div>
+  </div>
 </template>
 
 <script setup>

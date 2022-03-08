@@ -1,7 +1,7 @@
 <template>
     <div name="flightcard">
         <div
-            class="flight-card rounded-lg border-yellow-300 border-2 flex-row inline-flex mt-4 mb-4 min-w-[340px]"
+            class="flight-card rounded-lg border-primary-orange border-2 flex-row inline-flex mt-4 mb-4 min-w-[340px]"
         >
             <div class="flex justify-center mt-2 ml-4 mb-2 mr-4">
                 <div>

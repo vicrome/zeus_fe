@@ -1,5 +1,5 @@
 <template>
-    <div name="nightcard" class="border-l-[2px] border-dark-900 pl-2 mb-2">
+    <div name="nightcard" class="border-l-[2px] border-primary-orange pl-2 mb-2">
         {{ nDays }} Days
         <div v-for="index in nDays" :key="index">
             <div class="flex">

@@ -1,4 +1,5 @@
 import HomeView from "@/views/HomeView.vue";
+import ManagmentView from "@/views/ManagmentView.vue";
 import TripView from "@/views/TripView.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
@@ -12,6 +13,11 @@ const routes = [
     path: "/trip/:tripid",
     name: "Trip",
     component: TripView,
+  },
+  {
+    path: "/manage",
+    name: "Manage",
+    component: ManagmentView,
   },
 ];
 

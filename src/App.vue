@@ -1,13 +1,15 @@
 <template>
-  <h1 class="text-center pb-6">⚡️ Proyect Zeus ⚡️</h1>
-  <hr />
-  <h2 class="text-white font-bold text-center pt-6 pb-6">Plan your next trip!! 🔥🔥</h2>
-
-  <div class="flex flex-row ml-[30%] mb-8">
+  <h1 class="text-center pb-6 text-primary-orange">⚡️ Proyect Zeus ⚡️</h1>
+  <div class="flex flex-row ml-[30%] mb-4">
     <router-link class="ml-12" to="/">Home</router-link>
     <br />
-    <router-link class="ml-12" to="/trip/1">Trip (HW)</router-link>
+    <router-link class="ml-12" to="/manage">Manage</router-link>
+    <br />
+    <router-link class="ml-12" to="/trip/1">Trip 1</router-link>
+    <br />
+    <router-link class="ml-12" to="/trip/2">Trip 2</router-link>
   </div>
+  <hr class="border-[#f25f4c]" />
   <router-view></router-view>
 </template>
 
@@ -15,6 +17,17 @@
 
 </script>
 
+<style scoped>
+a {
+  font-family: Gotham-med;
+}
+a:hover {
+  color: #ff8906;
+}
+.router-link-exact-active {
+  color: #ff8906;
+}
+</style>
 <style>
 #app {
   -webkit-font-smoothing: antialiased;
@@ -26,8 +39,9 @@
   font-weight: 500;
 }
 html {
-  color: #cccf21;
-  background-color: #233241;
+  color: white;
+  /* color: #ff8906; */
+  background-color: #0f0e17;
   font-family: Gotham;
 }
 
